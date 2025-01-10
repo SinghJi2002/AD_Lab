@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .quick-links a {
+            display: inline-block;
+            text-decoration: none;
+            color: #007bff;
+            margin-right: 10px;
+            padding: 8px 15px;
+            border: 1px solid #007bff;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .quick-links a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+        .message-board input, .message-board textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .message-board button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .message-board button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Wall</h1>
+
+        <!-- Announcements Section -->
+        <div class="section">
+            <h2>Announcements and Notifications</h2>
+            <ul>
+                <li>Exam schedule for Semester 6 is now available.</li>
+                <li>Last date for project submission is March 30, 2024.</li>
+                <li>Upcoming holiday on April 10, 2024, for Good Friday.</li>
+            </ul>
+        </div>
+
+        <!-- Personalized Content Section -->
+        <div class="section">
+            <h2>Personalized Content</h2>
+            <p>Welcome, <strong>John Doe</strong>! Here are your upcoming events:</p>
+            <ul>
+                <li>Data Mining Assignment Deadline: March 15, 2024</li>
+                <li>Group Discussion: March 20, 2024</li>
+                <li>Final Year Project Demo: March 25, 2024</li>
+            </ul>
+        </div>
+
+        <!-- Interactive Communication Section -->
+        <div class="section message-board">
+            <h2>Interactive Communication</h2>
+            <p>Start a new thread or reply to peers:</p>
+            <textarea rows="4" placeholder="Write your message here..."></textarea>
+            <button>Post Message</button>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="section quick-links">
+            <h2>Quick Links</h2>
+            <a href="exams.html">Exams</a>
+            <a href="results.html">Results</a>
+            <a href="study-materials.html">Study Materials</a>
+            <a href="faqs.html">FAQs</a>
+        </div>
+
+        <!-- Activity Feed Section -->
+        <div class="section">
+            <h2>Activity Feed</h2>
+            <ul>
+                <li>You submitted "Assignment 2" on March 10, 2024.</li>
+                <li>"New Course: AI and Machine Learning" added on March 5, 2024.</li>
+                <li>"Forum Discussion: Cyber Security Trends" updated on March 8, 2024.</li>
+            </ul>
+        </div>
+
+        <!-- Resource Sharing Section -->
+        <div class="section">
+            <h2>Resource Sharing</h2>
+            <p>Share files, links, or notes:</p>
+            <input type="text" placeholder="Enter resource link or title">
+            <button>Share Resource</button>
+        </div>
+    </div>
+</body>
+</html>

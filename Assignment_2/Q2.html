@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="Q2.css">
+</head>
+
+<body>
+    <div class="colorbox"></div>
+    <div class="form">
+        <h1 class="title" id="title">Registration Form</h1>
+        <form action="" id="survey-form" class="survey-form">
+            <label for="name" id="name-label" class="name-label">
+                <p>Name</p>
+                <input type="text" id="name" class="name boxes" name="name" required placeholder="Enter Your Name">
+            </label>
+
+            <label for="id" id="id-label" class="id-label">
+                <p>ID</p>
+                <input type="text" name="id" id="id" class="id boxes" required placeholder="Enter Your ID">
+            </label>
+
+            <label for="mail" id="email-label" class="email-label">
+                <p>Email</p>
+                <input type="email" name="mail" id="email" class="email boxes" required placeholder="Enter Your Email">
+            </label>
+
+            <label for="password" id="password-label" class="password-label boxes">
+                <p>Password</p>
+                <input type="password" name="password" id="password" class="password boxes" required placeholder="Enter Your Password">
+            </label>
+
+            <label for="years" id="number-label" class="number-label">
+                <p>Age</p>
+                <input type="number" name="years" id="number" class="number boxes" required min="18" max="100" placeholder="Age">
+            </label>
+            <label for="">
+                <p>What is your Gender?</p>
+                <p><input type="radio" name="gender" value="definately" class="round">Male</p>
+                <p><input type="radio" name="gender" value="maybe" class="round"> Female</p>
+            </label>
+            <label for="">
+                <p>What is you branch in the college?</p>
+                <select name="" id="favourite" class="favourite boxes">
+                    <option disabled selected value>Select An Option</option>
+                    <option value="option1">Computer Science And Engineering</option>
+                    <option value="option2">Mechanical Engineering</option>
+                    <option value="option3">Electrical Engineering</option>
+                    <option value="option4">Civil Engineering</option>
+                    <option value="option4">Chemical Engineering</option>
+                </select>
+            </label>
+            <label>
+                <p>What are you skills? (Check all that apply)</p>
+                <p><input type="checkbox" name="option1" value="Front-End Project" class="round">Front-End Project</p>
+                <p><input type="checkbox" name="option2" value="Back-End Project" class="round">Back-End Project</p>
+                <p><input type="checkbox" name="option3" value="Data Visualisation" class="round">Data Visualisation</p>
+                <p><input type="checkbox" name="option4" value="Challenges" class="round">Machine Learning</p>
+                <p><input type="checkbox" name="option5" value="Open Source Community" class="round">Open Source
+                Development</p>
+                <p><input type="checkbox" name="option6" value="Gitters help room" class="round">Blockchain Development</p>
+                <p><input type="checkbox" name="option7" value="Videos" class="round">Video Editing</p>
+                <p><input type="checkbox" name="option8" value="City Meetups" class="round">Graphic Designing</p>
+                <p><input type="checkbox" name="option9" value="Wiki" class="round">SEOs Specialist</p>
+            </label>
+            <label>
+                <p>What is you college Address?</p> 
+                <textarea name="" id="" rows="10" cols="88" placeholder="Enter Your Address Here..."></textarea>
+            </label>
+            <label for="">
+                <input type="submit" id="submit" class="submit">
+            </label>
+        </form>
+    </div>
+</body>
+
+</html>
