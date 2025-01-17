@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+
+<body>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name"> <br>
+
+    <label for="roll">Roll Number</label>
+    <input type="text" name="roll" id="roll"> <br>
+
+    <label for="gender">Gender</label> <br>
+    <input type="radio" name="gender" id="gender-male" value="Male"> Male
+    <input type="radio" name="gender" id="gender-female" value="Female"> Female <br>
+
+    <label for="branch">Branch</label> <br>
+    <select name="branch" id="branch" required>
+        <option value="None Chosen">Select Your Branch</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Computer Engineering">Computer Engineering</option>
+        <option value="Electrical Engineering">Electrical Engineering</option>
+    </select> <br>
+
+    <label for="marks">Enter Marks</label> <br>
+    <input type="text" name="mark1" id="mark1" placeholder="Enter Marks 1"> <br>
+    <input type="text" name="mark2" id="mark2" placeholder="Enter Marks 2"> <br>
+    <input type="text" name="mark3" id="mark3" placeholder="Enter Marks 3"> <br>
+    <input type="text" name="mark4" id="mark4" placeholder="Enter Marks 4"> <br>
+    <input type="text" name="mark5" id="mark5" placeholder="Enter Marks 5"> <br>
+
+    <button id="showDetails">Show Details</button>
+    <button id="showGrades">Show Grades</button>
+
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Web Page</title>
+
+    <!-- Document-Wide Style -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #0056b3;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        /* CSS Box Model */
+        .box-model-demo {
+            border: 2px solid #007bff;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #e6f2ff;
+        }
+
+        /* CSS Text and Links */
+        .text-center {
+            text-align: center;
+        }
+
+        .highlight {
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        /* CSS Pseudo-classes and Pseudo-elements */
+        a:before {
+            content: "🔗 ";
+        }
+
+        a:hover {
+            color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Web Page</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2 id="about">About Us</h2>
+        <p>We are a <span class="highlight">dedicated team</span> providing innovative solutions to enhance your digital experience.</p>
+
+        <h2 id="services">Our Services</h2>
+        <ul>
+            <li>Custom Web Development</li>
+            <li>SEO Optimization</li>
+            <li>Cloud Solutions</li>
+        </ul>
+
+        <div class="box-model-demo">
+            <p>This section demonstrates the <strong>CSS Box Model</strong>, showcasing border, padding, and margin styles.</p>
+        </div>
+
+        <h2 id="contact">Contact Us</h2>
+        <p>Reach us via email at <a href="htmlpractice@gmail.com">htmlpractice@gmail.com</a>.</p>
+    </div>
+
+    <footer>
+        <p>© 2025 Your Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
