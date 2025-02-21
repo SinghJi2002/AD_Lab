@@ -1,0 +1,32 @@
+#add{
+    background-color: rgb(4, 193, 4);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+}
+#search{
+    background-color: rgb(4, 193, 4);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+}
+#ascending{
+    background-color: rgb(4, 193, 4);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+}
+#descending{
+    background-color: rgb(4, 193, 4);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+}
